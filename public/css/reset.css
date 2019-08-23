@@ -1,0 +1,343 @@
+.dct-blue {
+    background: #0c5c99;
+    background-color: #0c5c99;
+}
+
+.dct-yellow {
+    background: #f7941e;
+    background-color: #f7941e;
+}
+
+
+.dct-blue-text {
+    color: #0c5c99;
+}
+
+
+.dct-yellow-text {
+    color: #f7941e;
+}
+
+.dct-white-text {
+    color: #ffffff;
+}
+
+#header {
+    padding: 20px 0;
+    height: 84px;
+    transition: all 0.5s;
+    z-index: 997;
+    background: rgba(0, 0, 0, 0);
+    /* box-shadow: 0px 6px 9px 0px rgba(0, 0, 0, 0.06); */
+    box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0.06);
+    width: 1263px;
+    position: fixed;
+    top: 0px;
+    z-index: 50;
+}
+
+.navbar-assault {
+    background: rgba(255, 255, 255, 1);
+    box-shadow: 0px 6px 9px 0px rgba(0, 0, 0, 0.06);
+}
+
+#intro {
+    width: 100%;
+    height: 60vh;
+    position: relative;
+    background: url(../img/intro-carousel/1.jpg) no-repeat;
+    background-size: cover;
+    margin-top: -84px;
+}
+
+#intro #intro-carousel::before {
+    content: '';
+    background-color: rgba(255, 255, 255, 0);
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    z-index: 7;
+}
+
+
+.section-header h2::before {
+    content: '';
+    position: absolute;
+    display: block;
+    width: 50px;
+    height: 3px;
+    background: #ffffff;
+    bottom: 0;
+    left: 0;
+}
+
+#intro .intro-content h2 {
+    color: #0c5c99;
+    margin-bottom: 30px;
+    font-size: 64px;
+    font-weight: 700;
+}
+
+h2:after {
+    content: '';
+    margin-top: 28px;
+    margin-bottom: 18.66667px;
+    display: block;
+    position: relative;
+    height: 6px;
+    width: 80px;
+    background-color: #ff6002;
+    border-radius: 3px;
+    -webkit-transition: background-color 0.25s;
+    -o-transition: background-color 0.25s;
+    transition: background-color 0.25s;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+h5:after {
+    content: '';
+    margin-top: 16px;
+    margin-bottom: 18.66667px;
+    display: block;
+    height: 6px;
+    width: 80px;
+    background-color: #ff6002;
+    text-align: left;
+    border-radius: 3px;
+    -webkit-transition: background-color 0.25s;
+    -o-transition: background-color 0.25s;
+    transition: background-color 0.25s;
+    margin-left: auto;
+    margin-right: 70%;
+}
+
+
+
+#portfolio .portfolio-item img {
+    -webkit-transition: all ease-in-out 0.4s;
+    transition: all ease-in-out 0.4s;
+    height: 50px;
+    width: 50px;
+}
+
+.material-design-shadow-1 {
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.12), 0 1px 1px rgba(0, 0, 0, 0.24);
+    transition: all 0.3s cubic-bezier(.25, .8, .25, 1);
+}
+
+#clients img {
+    max-width: 60%;
+    opacity: 0.9;
+    transition: 0.3s;
+    padding: 0px 0;
+}
+
+
+.nav-menu li:hover>a,
+.nav-menu>.menu-active>a {
+    color: #f7941e;
+    border-bottom: solid #f7941e 3px;
+}
+
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin-bottom: 0;
+}
+
+ul li {
+    border: none;
+    padding: 2.14166px 0 0;
+    margin-bottom: 2.14166px;
+
+}
+
+ul li a {
+    color: #ffffff;
+
+}
+
+#action-center {
+    background: #ff6002;
+    background-size: cover;
+    padding: 40px 0;
+    color: white;
+}
+
+#action-center .cta-btn {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    letter-spacing: 1px;
+    display: inline-block;
+    padding: 8px 26px;
+    border-radius: 3px;
+    transition: 0.5s;
+    margin: 10px;
+    border: 3px solid #fff;
+    color: #fff;
+}
+
+
+.section-header h2::before {
+    content: '';
+    position: absolute;
+    display: block;
+    width: 0px;
+    height: 0px;
+    background: #ffffff;
+    bottom: 0;
+    left: 0;
+}
+
+#portfolio {
+    background: #f3f3f3 url(//www.infobip.com/assets/img/home/globe-background.png) bottom left no-repeat;
+}
+
+.marquee-label {
+    text-transform: uppercase;
+}
+
+.title-stub {
+    position: relative;
+    text-align: center;
+}
+
+
+.card {
+    border-radius: 0px;
+}
+
+.card a {
+    color: #2a2a2b;
+}
+
+h6,
+.h6 {
+    font-size: 18px;
+    font-family: "ProximaNova-Semibold", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+}
+
+p {
+    text-align: center;
+}
+
+
+
+.title-stub::after {
+    content: '';
+    margin-top: 16px;
+    margin-bottom: 18.66667px;
+    display: block;
+    height: 6px;
+    width: 40px;
+    background-color: #ff6002;
+    text-align: left;
+    border-radius: 3px;
+    -webkit-transition: background-color 0.25s;
+    -o-transition: background-color 0.25s;
+    transition: background-color 0.25s;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#services .box .icon i:before {
+    background: #0c2e8a;
+    background: linear-gradient(45deg, #0c5c99 0%, #0c5c99 100%);
+    background-clip: border-box;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+
+#footer {
+    background: #58595a;
+    padding: 0 0 30px 0;
+    font-size: 14px;
+}
+
+.twoway-coverage {
+    background-image: url(//www.infobip.com/assets/img/platform/sms/2way-coverage-bg.jpg);
+}
+
+.software-solutions p,
+.software-solutions h3 {
+    color: #ffffff;
+    text-align: left;
+}
+
+.bracket-row {
+    position: relative;
+}
+
+.bracket-row>[class^="col-"],
+.bracket-row>[class*=" col-"] {
+    position: relative;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    max-width: 100%;
+}
+
+
+.bracket-row .bracket-col-inner {
+    padding-left: 50px;
+    padding-right: 50px;
+    max-width: 100%;
+}
+
+
+.just-padding {
+    padding: 15px;
+    /* margin-left: auto;
+    margin-right: auto;
+    width: 40%; */
+}
+
+.list-group.list-group-root {
+    padding: 0;
+    overflow: hidden;
+}
+
+.list-group.list-group-root .list-group {
+    margin-bottom: 0;
+}
+
+.list-group.list-group-root .list-group-item {
+    border-radius: 0;
+    border-width: 1px 0 0 0;
+}
+
+.list-group.list-group-root>.list-group-item:first-child {
+    border-top-width: 0;
+}
+
+.list-group.list-group-root>.list-group>.list-group-item {
+    padding-left: 30px;
+}
+
+.list-group.list-group-root>.list-group>.list-group>.list-group-item {
+    padding-left: 45px;
+}
+
+.list-group-item {
+    position: relative;
+    display: block;
+    padding: .75rem 1.25rem;
+    margin-bottom: -1px;
+    background-color: #fff0;
+    border: 1px solid rgba(0, 0, 0, 0);
+}
+
+a {
+    color: #ffffff;
+    transition: 0.5s;
+}
